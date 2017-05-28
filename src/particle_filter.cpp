@@ -283,9 +283,6 @@ void ParticleFilter::updateWeights(double sensor_range, double std_landmark[],
  * This function concentrates the particles in the highest posterior likelihood region
  */
 void ParticleFilter::resample() {
-	// TODO: Resample particles with replacement with probability proportional to their weight. 
-	// NOTE: You may find std::discrete_distribution helpful here.
-	//   http://en.cppreference.com/w/cpp/numeric/random/discrete_distribution
 
 	// Use Random device
 	std::random_device random;
